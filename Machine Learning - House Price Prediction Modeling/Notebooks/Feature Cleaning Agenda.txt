@@ -1,0 +1,29 @@
+1) Load df
+
+2) Clean Features
+Electrical - Remove NaN Rows
+MasVnrType - Remove NaN Rows
+MasVnrArea - Remove NaN Rows
+BsmtQual - Convert NaN to None
+BsmtCond - Do Nothing
+BsmtFinType1 - Do Nothing
+BsmtFinType2 - Remove row where BsmtQual is None and BsmtFinType2 is NaN
+BsmtExposure - Remove row where BsmtQual is None and BsmtExposure is NaN
+GarageQual - Convert NaN to None
+GarageFinish - Do Nothing
+GarageYrBlt - Do Nothing
+GarageType - Do Nothing
+GarageCond - Do Nothing
+LotFrontage - Decide Later
+FireplaceQu - Convert NaN to None
+Fence - Convert NaN to None
+Alley - Convert NaN to None
+MiscFeature - Convert NaN to None
+PoolQC - Convert NaN to None
+MSSubClassMap - Convert from numerical to catagorical
+
+3) Make Dummy Values
+
+4) Train Test Split
+
+5) Fit and Predict
