@@ -1,0 +1,169 @@
+body {
+  display: grid;
+  grid-template-columns: 300px 800px 300px;
+  grid-template-rows: 60px auto;
+  grid-gap: 1em;
+  background-color: black;
+  justify-items: center;
+  justify-content: center;
+}
+
+/* CANVAS */
+#container{
+  position: relative;
+}
+
+#game {
+  display: block;
+  position: static;
+  border-radius: 3px;
+  border: 10px inset black;
+  background-size: contain;
+  background-image: url("images/black_hole.gif"); /* https://media.giphy.com/media/PkKzNQjwPy7GvxZbfe/giphy.gif */
+}
+
+#start {
+  position: absolute;
+  left: 300px;
+  top: 500px;
+  padding: 15px;
+  background-color: red;
+  border: black 3px inset;
+  border-radius: 10px;
+}
+
+/* GAME TITLE */
+header {
+  grid-column: 1 / span 3;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: green;
+  font-size: large;
+}
+
+/* RULE BOARD */
+#rules {
+  height: 375px;
+  border: 3px solid lightyellow;
+  border-radius: 15px;
+  padding-right: 10px;
+  color: yellow;
+  position: relative;
+  right: -1em;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  grid-column: 1 / 2;
+}
+
+#rules ul{
+  margin: 15px auto;
+}
+
+/* SCORE BOARD */
+#scores {
+  width: 350px;
+  border: 3px solid lightyellow;
+  border-radius: 15px;
+  color: yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  grid-column: 3 / 4;
+  position: relative;
+  left: -20px;
+  padding: 7px;
+}
+
+/* headings of the sides */
+h2.sides {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin: 15px auto;
+  color: limegreen;
+}
+
+/*------- CSS3 EFFECTS ---------*/
+/* GAME TITLES */
+header h1{
+  color: green;
+  animation-name: gameTitle;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes gameTitle {
+  0%   {color: green;}
+  15%  {color: green;}
+  35%  {color: yellow;}
+  50%  {color: yellow;}
+  85%  {color: red;}
+  100% {color: red;}
+}
+
+/* RULES */
+#rules .sides {
+  opacity: 0;
+  animation-name: displayHeading;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes displayHeading {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#rules ul li:first-child {
+  opacity: 0;
+  animation-name: displayItem1;
+  animation-duration: 1s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes displayItem1 {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#rules ul li:nth-child(2) {
+    opacity: 0;
+    animation-name: displayItem1;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes displayItem2 {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#rules ul li:last-child {
+    opacity: 0;
+    animation-name: displayItem1;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes displayItem3 {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* SCORE BOARD */
+#scores h2, #scores ul {
+  opacity: 0;
+  animation-name: displayScores;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes displayScores {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}

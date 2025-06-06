@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>Super Baoser</title>
+    <meta name="author" content="Andrew Hupp, Bao Nguyen, Devin Gao">
+    <meta name="description" content="Super Baoser: a platformer game made for CSCI 445">
+
+    <link rel="stylesheet" href="superbaoser.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="superbaoser.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>SUPER BAOSER</h1>
+    </header>
+    <aside id="rules">
+      <h2 class="sides">How to Play</h2>
+      <ul>
+        <li>Use W to jump and A/D to move left/right.</li>
+        <li>Move your character to the top of the screen to advance to the next level.</li>
+        <li>Finish all levels as fast as you can with minimal death count.</li>
+      </ul>
+    </aside>
+    <div id="container">
+      <canvas id="game" width="700" height="700" style="border:1px solid black;">
+        Your browser does not support canvas.
+      </canvas>
+      <button id="start">Start Game</button>
+    </div>
+    <aside id="scores">
+      <h2 class="sides">Fastest Times</h2>
+      <ul>
+        <li>Overall: <span id="stats-fastest-all">n/a</span></li>
+        <li>Floor 1: <span id="stats-fastest-1">n/a</span></li>
+        <li>Floor 2: <span id="stats-fastest-2">n/a</span></li>
+      </ul>
+      <h2 class="sides">Fewest Deaths</h2>
+      <ul>
+        <li>Overall: <span id="stats-deaths-all">n/a</span></li>
+        <li>Floor 1: <span id="stats-deaths-1">n/a</span></li>
+        <li>Floor 2: <span id="stats-deaths-2">n/a</span></li>
+      </ul>
+      <h2 class="sides">Last Run</h2>
+      <ul>
+        <li>Overall: <span id="stats-last-all">n/a</span></li>
+        <li>Floor 1: <span id="stats-last-1">n/a</span></li>
+        <li>Floor 2: <span id="stats-last-2">n/a</span></li>
+      </ul>
+    </aside>
+  </body>
+</html>
