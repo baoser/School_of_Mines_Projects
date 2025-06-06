@@ -1,0 +1,6 @@
+Wand
+Muggle Weapon
+Knife
+Troll
+Sword
+Broomstick

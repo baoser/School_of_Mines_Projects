@@ -1,0 +1,69 @@
+Cassandra VanDeventer
+Bao Nguyen
+
+Before most significant change:
+
+public boolean isRoom() {
+		if (initial != 'W')
+			return true;
+		return false;
+	}
+
+After most significant change:
+
+public boolean isRoom() {
+		if (initial != 'W' && initial != 'X')
+			return true;
+		return false;
+	}
+	
+This is our most significant change because we needed to check if the piece is not a closet piece
+as well as a walkway piece too.
+
+commit d65e92c2c51deba55b45a8987a061725d8996603
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 12:20:08 2018 -0600
+
+    Eighth commit for C17A-2. Changed the condition for the if statement in isRoom() method in BoardCell class. Needed to check if the piece is nota closet piece.
+
+commit c78258083dcf8d383ce1e9491fa38fc80726a14f
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 12:15:26 2018 -0600
+
+    Seventh commit for C17A-2. Added meaningful comment in BadConfigFormatException.
+
+commit f71d34ad5aef1e793051147d4172028b9fb80367
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 12:11:22 2018 -0600
+
+    Sixth commit for C17A-2. Changed variable name in findTargets() method in Board class from x to cell in the for loop.
+
+commit 85516e3aafc6289c7013ed04ba8d315ac52317f6
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 12:00:18 2018 -0600
+
+    fifth commit for C17-A. Added meaningful comments for the arrays and variables in calcAdjacencies in Board class.
+
+commit f0135e3f32f3a3d461c881ab7e94784d0594ae8f
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 11:57:29 2018 -0600
+
+    fourth commit for C17-A. Fixed a minor spelling error on a comment for calcAdjacencies in Board class.
+
+commit 0c16842f1bbb885fcb71480c5e70545829348bb1
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 11:55:35 2018 -0600
+
+    third commit for C17A-2. Deleted auto generated TODO comment incatch block from loadBoardConfig() method in Board class.
+
+commit ec79734134c53c52281f7a855d2bca30792b1ad6
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 11:52:25 2018 -0600
+
+    second commit for C17A-2. Added a meaningful comment for singleton pattern in board class before theInstance.
+
+commit 9136690db065d43c5b367c0aa5d4fc611dc5a27c
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 11:41:28 2018 -0600
+
+    first commit for C17A-2. Changed parameter names for BoardCell constuctor to r and c.

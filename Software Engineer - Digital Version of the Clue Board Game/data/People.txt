@@ -1,0 +1,6 @@
+Harry Potter, red, 0, 5
+Hermoine Granger, pink, 12, 0
+Ron Weasley, blue, 20, 7
+Lord Voldemort, black, 20, 16
+Severus Snape, green, 5, 23
+Albus Dumbledore, white, 0, 12

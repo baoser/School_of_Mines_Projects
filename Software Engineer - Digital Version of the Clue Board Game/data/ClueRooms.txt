@@ -1,0 +1,11 @@
+T, Theater, Card
+K, Kitchen, Card
+G, Garden, Card
+F, Family Room, Card
+L, Library, Card
+S, Studio, Card
+P, Patio, Card
+B, Billiard Room, Card
+H, Hall, Card
+X, Closet, Other
+W, Walkway, Other

@@ -1,0 +1,451 @@
+commit 1a4c58ff9f6ac8c8d60c8d048e4db3ae7a705fae
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Wed Nov 28 19:46:54 2018 -0700
+
+    implemented a frame that will be displayed when player haven'tsubmitted their suggestion and the Next Player button is clicked.
+
+commit 8dd957bfccb6d4887aad290a9804773a392c41e4
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Wed Nov 28 19:44:21 2018 -0700
+
+    Set flag to ignore the Next Player button when Suggestion Dialog pops up.
+
+commit decba591dc6e55aa8a6de86307601f8d92cf15d3
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Wed Nov 28 03:29:03 2018 -0700
+
+    added comments and fixed up mouse listener for human moves. All tests pass. The game seems to work great.
+
+commit c62f145d9ca353106ad43d553f9f6138f3975e22
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 27 16:47:13 2018 -0700
+
+    implemented player make accusation. Everything passes. The game seems to work fine.
+
+commit 088a7e32c78b5185f637d732f6e98dd983dc321e
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 27 12:27:26 2018 -0700
+
+    submit accusation button implemented, cancel button doesn't work. Need to set flag for make accusation at the beginning of the turn.
+
+commit 9309401a905c54ad448f52769386c1e6e1f4f4af
+Author: Cassandra VanDeventer <cvandeventer@mines.edu>
+Date:   Tue Nov 27 11:43:06 2018 -0700
+
+    Git log updated.
+
+commit 44af86fc440d938fb3dda3d830ad0035ac5b564b
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Tue Nov 27 04:27:54 2018 -0700
+
+    implemented human suggestion.
+
+commit e7a21284bec614e0d4bfb6b86f688710e839b8fd
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Tue Nov 27 01:44:57 2018 -0700
+
+    computer suggestion and accusation implemented.
+
+commit 514f2fd21513e3e8fddb8fb2314dee9fafd00c02
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Sun Nov 25 00:50:58 2018 -0700
+
+    added GuessDialog class which displays a dialog that will allow the human player to make suggestions. Need to add functionality to submit and cancel buttons.
+
+commit 3fa781c804ce4c4fe3528ad7e6b05cc1fb22585e
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Sat Nov 24 19:11:03 2018 -0700
+
+    implemented computer players make suggestion when enter a room.
+
+commit 639bdcaac8c4347e8e126b2931d6014829b51377
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Tue Nov 20 02:15:21 2018 -0700
+
+    implemented Next Player button's functionality and move players. All tests pass. Changed People.txt so player take turns in the order of counter clockwise.
+
+commit dcbcb7341f66779bf9808f2d73d830cb73ca4a36
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Wed Nov 14 23:49:48 2018 -0700
+
+    added names and updated gitlog.txt
+
+commit 669acf48a773ab319a72dd844fa97d77f037f0dc
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Wed Nov 14 23:46:36 2018 -0700
+
+    add comments and fixed a few display errors.
+
+commit d7250d00be92c459b50d3ee52004af5c630d259a
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Wed Nov 14 23:37:24 2018 -0700
+
+    added control panel and player's cards to the frame.
+
+commit f87b60390d4fb2e1d4cec6810f20bb563742d485
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Wed Nov 14 22:53:46 2018 -0700
+
+    prompt start splash screen implemented.
+
+commit 70553bbcadb81a1e701925088b64e2bdab2ab674
+Author: Cassandra VanDeventer <cvandeventer@mines.edu>
+Date:   Tue Nov 13 13:48:13 2018 -0700
+
+    Changes made to the detective notes.
+
+commit d58e9b36101eb40e7d2df2c497d9430e8cc69c79
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 13 12:42:23 2018 -0700
+
+    Got everything to be drawn better. Need to fix up detective notes a little.
+
+commit 338d4a7694258b00dfc5eae0a768212a95433dda
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Tue Nov 13 00:36:28 2018 -0700
+
+    the board is drawn properly. Need to fix up dectective notes dialog.
+
+commit 199643f93d8ec20d6786799050951915cc3d1eb7
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 12 20:23:45 2018 -0700
+
+    changed setConfigFiles back to have two parameters from 4. All tests pass again
+
+commit efcf41bebe3206bfad793679bbb96fd7b967bf24
+Merge: fe14760 7a182bc
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 12 17:26:21 2018 -0700
+
+    Merge branch 'master' of https://github.com/cvandeventer28/ClueGame2
+
+commit 7a182bca1eb2155c517e9528427d3ba4dd64c00a
+Author: Cassandra VanDeventer <cvandeventer@mines.edu>
+Date:   Mon Nov 12 17:25:29 2018 -0700
+
+    Newly tracked files
+
+commit fe1476042a643c567818f68870745194128144d2
+Merge: a99544c 4862bd6
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 12 17:13:42 2018 -0700
+
+    Merge https://github.com/cvandeventer28/ClueGame2
+
+commit a99544c72a3bb93ce51b44711485b29573f466c2
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 12 17:12:48 2018 -0700
+
+    commit just to be sure
+
+commit 4862bd60614114bf56856200c82cad8696b3233d
+Author: Cassandra VanDeventer <cvandeventer@mines.edu>
+Date:   Mon Nov 12 15:47:15 2018 -0700
+
+    Fixed names of rooms, forgot to do this first
+
+commit b4407ea987f16269e68b661152ba9321637b3503
+Author: Cassandra VanDeventer <cvandeventer@mines.edu>
+Date:   Mon Nov 12 15:32:52 2018 -0700
+
+    Added drawComponent, detective notes, and a new class ClueGame
+
+commit 3436329cd2f2001dbe096ac07dc79d1f56218ac1
+Author: Cassandra VanDeventer <cvandeventer@mines.edu>
+Date:   Thu Nov 8 12:19:29 2018 -0700
+
+    Added file menu for GUI
+
+commit 3b032762d690e9cd2c604cc3f58fdf0bfe4fee6b
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Wed Nov 7 16:33:36 2018 -0700
+
+    Created GUI for control panel.
+
+commit e45c39c7efb789efc0a89adda9be34eebc78bf64
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Tue Nov 6 20:33:52 2018 -0700
+
+    updated gitlog.txt
+
+commit ec36384e8b7e23629a887f6880aac96c272fcc0e
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Tue Nov 6 20:32:44 2018 -0700
+
+    Added comments. All tests pass.
+
+commit cd9e891ba866d98c0ca2a3ebb124d31a74750d9e
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 18:31:31 2018 -0700
+
+    test handle suggestion passes. Need to add comments for it.
+
+commit 86412943962e1337f6e1a39372230df692fca71c
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 18:06:22 2018 -0700
+
+    test handle suggestion fails without errors.
+
+commit 6a72f9a2b235087038387ad3878bb9f809676f29
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 17:16:27 2018 -0700
+
+    test disproving suggestion when multiple cards match passes.
+
+commit 907aa8119b6e7f0856703ea8372a4468a527aaa9
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 17:08:34 2018 -0700
+
+    test disproving suggestion when multiple cards match fails without errors.
+
+commit 836e4c1bc121a73acd33bb62fdb5f9d0a5b0365a
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 16:54:22 2018 -0700
+
+    test disproving suggestion when no card matches passes.
+
+commit 51c5cc6cd55d5baaf74d42dcfb2b1e700f6f69c5
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 16:52:03 2018 -0700
+
+    test disproving suggestion when no card matches fails without errors.
+
+commit c5ddbc16cff13d9840892b841ec05889ea2679b0
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 16:41:33 2018 -0700
+
+    test disprove suggestion for 1 matching card passes.
+
+commit e4255195f7ec87759f74b7c8e5c0a454fed8a552
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 16:31:19 2018 -0700
+
+    test disproving suggestion fails without errors.
+
+commit b494ba51c87a7071f54a9b5a39c1da996cd72ad2
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 16:03:40 2018 -0700
+
+    test create suggestion passes.
+
+commit aa9909e60a48aec667f8679219bace8f2e22ac3a
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Nov 6 11:45:49 2018 -0700
+
+    test create suggestion fails without errors.
+
+commit f1af9e33038e7046b3f061ddaa37c7bf1a8d334b
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 5 21:47:14 2018 -0700
+
+    test create suggestion in progress.
+
+commit e78f8d90e2004da1dc6953df5bc9618ca9fcc137
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 5 21:20:10 2018 -0700
+
+    saparated game action tests from game set up tests.
+
+commit fed763978a53c275b60ff0dd0eef1c87cab4dd08
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 5 20:43:54 2018 -0700
+
+    test Accusation passes.
+
+commit 6d0c21075b96018de98ea7a36510187566958a90
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 5 20:31:28 2018 -0700
+
+    test accusation fails without errors.
+
+commit 289ca24c15a0a18bb8be0ee6253f402407603a59
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 5 18:51:50 2018 -0700
+
+    wrote test random doorway selection automatically passes because of previous test implementation.
+
+commit 2ca1128c33b38305fca987ac625fac55b9f70588
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 5 18:30:25 2018 -0700
+
+    test for doorway selection if room is not previously visited passes.
+
+commit 9477cd46bcc461791c1f30a1fcc588d11d0ea4c8
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Mon Nov 5 18:19:45 2018 -0700
+
+    test selection a doorway fails without errors.
+
+commit e9fcedbcfef007747450b891a8eda6210ee99d17
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Nov 1 15:49:43 2018 -0600
+
+    test selecting random targets with no doorway passes
+
+commit 3c3cf1a602dc244fe2b2ede1fbc4b59773af83f0
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Nov 1 15:29:43 2018 -0600
+
+    test random targets fails without errors.
+
+commit 438de7e21527d4bb0f38002eaf0bfd6439c7745b
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Wed Oct 31 19:03:25 2018 -0600
+
+    test for dealing cards passed. Commented all test methods and board's methods.
+
+commit ffd566381803994e39a06be39daf3c3fd89e9c86
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Wed Oct 31 17:51:14 2018 -0600
+
+    test dealing cards fails without errors
+
+commit 5b099af2726cc641672c31cc6e7ec7ee4f05d89a
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Wed Oct 31 16:50:46 2018 -0600
+
+    test loading deck of cards successfully passed
+
+commit 0971034377807192a352276de11a02af505170b2
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Wed Oct 31 15:49:38 2018 -0600
+
+    test loading deck of cards fail without errors.
+
+commit 9c81ecec10e5f1ba3e34739d4a8d19b8bbf6d06a
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Oct 30 16:48:51 2018 -0600
+
+    testLoadPeople passed
+
+commit ad6a01f4602148144988f1b0b41a01807bbbd1fa
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Oct 30 15:42:39 2018 -0600
+
+    testLoadPeople fails without errors
+
+commit 00b2804bf1c2ccbf0ba47388da6959199a7d8aec
+Author: Cassandra VanDeventer <cvandeventer@mines.edu>
+Date:   Tue Oct 30 13:31:48 2018 -0600
+
+    Messed around with a few things to try and get the tests to fail properly, but still getting errors.
+
+commit 1012b3e1312c049a5bcba5e8a97ea5bf3938d60d
+Author: Cassandra VanDeventer <cvandeventer@mines.edu>
+Date:   Tue Oct 30 12:17:15 2018 -0600
+
+    Created our first test, have not run it yet to make sure it fails
+
+commit d65e92c2c51deba55b45a8987a061725d8996603
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 12:20:08 2018 -0600
+
+    Eighth commit for C17A-2. Changed the condition for the if statement in isRoom() method in BoardCell class. Needed to check if the piece is nota closet piece.
+
+commit c78258083dcf8d383ce1e9491fa38fc80726a14f
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 12:15:26 2018 -0600
+
+    Seventh commit for C17A-2. Added meaningful comment in BadConfigFormatException.
+
+commit f71d34ad5aef1e793051147d4172028b9fb80367
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 12:11:22 2018 -0600
+
+    Sixth commit for C17A-2. Changed variable name in findTargets() method in Board class from x to cell in the for loop.
+
+commit 85516e3aafc6289c7013ed04ba8d315ac52317f6
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 12:00:18 2018 -0600
+
+    fifth commit for C17-A. Added meaningful comments for the arrays and variables in calcAdjacencies in Board class.
+
+commit f0135e3f32f3a3d461c881ab7e94784d0594ae8f
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 11:57:29 2018 -0600
+
+    fourth commit for C17-A. Fixed a minor spelling error on a comment for calcAdjacencies in Board class.
+
+commit 0c16842f1bbb885fcb71480c5e70545829348bb1
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 11:55:35 2018 -0600
+
+    third commit for C17A-2. Deleted auto generated TODO comment incatch block from loadBoardConfig() method in Board class.
+
+commit ec79734134c53c52281f7a855d2bca30792b1ad6
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 11:52:25 2018 -0600
+
+    second commit for C17A-2. Added a meaningful comment for singleton pattern in board class before theInstance.
+
+commit 9136690db065d43c5b367c0aa5d4fc611dc5a27c
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Thu Oct 25 11:41:28 2018 -0600
+
+    first commit for C17A-2. Changed parameter names for BoardCell constuctor to r and c.
+
+commit 9b2f040b62288dfa4bb0a925417617bfd5e75473
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Sat Oct 20 19:25:17 2018 -0600
+
+    Both Baldwin's tests and our own tests all passed
+
+commit a98e8088bbb94f73e2b1d48f31e3c64cd279345e
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Fri Oct 19 21:11:30 2018 -0600
+
+    all adj and targets tests fail without errors
+
+commit 1af358c23c5d04025a2e014917b52fbd2ffb7e4e
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Fri Oct 19 17:17:26 2018 -0600
+
+    all 3 test files passed
+
+commit 2843f84afe9e32fd272409f0ac60ffc7d5e6f1d0
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Fri Oct 19 16:17:38 2018 -0600
+
+    passing Baldwin's tests
+
+commit 2d23db5684f430a2d662018bd9d186e4c8278021
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Fri Oct 12 23:22:19 2018 -0600
+
+    finished our own test file. All tests fail without errors
+
+commit a60b95e8bf41cbe14e307e78eaec0b00d773aee8
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Fri Oct 12 12:30:43 2018 -0600
+
+    Instuctor's tests fail with no errors
+
+commit 1a22c060483d0d09bebe008b05dbe56a5053da0a
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Wed Oct 10 16:30:05 2018 -0600
+
+    updated all methods for part 2. All tests passed
+
+commit 3f157d1e9c5577e27029c2f464c59592a7dd1785
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Tue Oct 9 23:33:04 2018 -0600
+
+    fill in all methods but encounter null pointer exception
+
+commit f8e073b9f197bc0efe6ebe6d08f29b344f8d2ba1
+Author: Bao Nguyen <bqnguyen@mymail.mines.edu>
+Date:   Tue Oct 9 22:03:02 2018 -0600
+
+    added comments
+
+commit e5ed3f1d09f5c3f5c51aca3b0fb257c3d57ac6da
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Oct 9 15:33:11 2018 -0600
+
+    fix null pointer errors
+
+commit 1bf632f47319c493c53c190775a898a7f162475b
+Author: Bao Nguyen <bqnguyen@mines.edu>
+Date:   Tue Oct 9 13:29:18 2018 -0600
+
+    First commit
