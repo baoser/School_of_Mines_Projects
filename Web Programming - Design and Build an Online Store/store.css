@@ -1,0 +1,248 @@
+.topnav {
+  color: white;
+  background-color: black;
+  list-style-type: none;
+  padding: 0;
+  font-size: 0;
+}
+  
+.topnav li {
+  display: inline;
+  margin: 0;
+}
+
+.topnav li a{ 
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.topnav li:not(:first-child) a{
+  border-left: 1px solid lightblue;
+}
+
+.topnav li:last-child a{
+  display: block;
+  float: right;
+  font-style: italic;
+}
+
+.topnav li a:hover {
+  background-color: lightcyan;
+  color: black;
+}
+
+header {
+  max-width: 100%;
+  background-color: lightblue;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+footer {
+    max-width: 100%;
+    background-color: lightblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.mainBackground {
+  position: relative;
+  background-color: honeydew;
+  padding: 10px;
+  height: 45em;
+}
+
+.info {
+  width: 350px;
+  background-color: lightcyan;
+  margin-bottom: 20px;
+}
+
+.legend {
+  background-color: mediumturquoise;
+}
+
+.error {
+  color: red;
+}
+
+#products {
+  width: 300px;
+}
+
+input[type=submit] {
+  background-color: mediumturquoise;
+  padding: 5px 8px;
+}
+
+/* images */
+#imageArea {
+  position: fixed;
+  top: 20em;
+  left: 30em;
+}
+
+#stockMessage {
+  color: blue;
+  margin-top: 0px;
+}
+
+#confirmation {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: 400px;
+  background-color: bisque;
+  border: 1px dashed black;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.receipt {
+  text-align: center;
+  line-height: 0.8rem;
+}
+
+.receipt span {
+  display: inline-block;
+  width: 175px;
+  text-align: left;
+}
+
+.receipt span:first-of-type {
+  text-align: right;
+}
+
+/* tables */
+table {
+	margin-bottom: 25px;
+  margin-left: 15px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  width: auto;
+}
+
+caption {
+  text-align: left;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-bottom: 8px;
+}
+
+.clearButton {
+  position: relative;
+  left: 10em;
+  padding: 5px 8px;
+  background-color: red;
+  color: white;
+}
+
+#orderMessage {
+  color: blue;
+}
+
+#existingCustomer {
+  position: fixed;
+  top: 10em;
+  left: 30em;
+}
+
+#existingMessage {
+  position: fixed;
+  top: 8em;
+  left: 30em;
+}
+
+#itemInfo {
+  position: fixed;
+  top: 12em;
+  left: 40em;
+}
+
+.tableArea {
+  height: 140px;
+  overflow-y: scroll; 
+  width: 30em;
+}
+
+#update {
+  position: relative;
+  left: 5em;
+  padding: 5px 8px;
+}
+
+#delete {
+  position: relative;
+  left: 10em;
+  padding: 5px 8px;
+  background-color: red;
+  color: white;
+}
+
+#validationMessage {
+  color: red;
+  font-weight: bold;
+  position: fixed;
+  top: 10em;
+  left: 40em;
+}
+
+.titles {
+  font-size: 22px;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-bottom: 8px;
+}
+
+#sortForm {
+  position: fixed;
+  top: 9em;
+  left: 50em;
+}
+
+#sortFieldset {
+  background-color: azure;
+  text-align: left;
+  border: 3px solid black;
+  font-size: 22px;
+}
+
+.filterDropdown {
+  height: 3em;
+  width: 20em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#displayOptions {
+  font-size: 22px;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-bottom: 20px;
+}
+
+#ordersTable {
+  width: 45em;
+  border: 3px solid black;
+}
